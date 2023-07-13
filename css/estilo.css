@@ -1,22 +1,42 @@
+p{
+    font-size: 22px;
+}
+/* Estilos para a navbar */
+.navbar {
+    color: white;
+    background-color: rgb(12, 6, 66);
+    overflow: hidden;
+}
 
-        /* Estilos para a navbar */
-        .navbar {
-            color: white;
-            background-color: rgb(15, 2, 2);
-            overflow: hidden;
-        }
+/* Estilos para os links na navbar */
+.navbar a {
+    font-size: 26px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        /* Estilos para os links na navbar */
-        .navbar a {
-            float: left;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+/* Estilos para os links ativos na navbar */
+.navbar a.active {
+    background-color: #ffffff;
+}
 
-        /* Estilos para os links ativos na navbar */
-        .navbar a.active {
-            background-color: #10d517;
-        }
-  
+#tituloprincipal{
+    color: #ffffff;
+}
+
+.posicao {
+    text-align: center;
+    justify-content: center;
+    background-color: #060127;
+    padding: 2%;
+}
+
+
+img{
+    border: 1px solid;
+    justify-items: center;
+}
+
